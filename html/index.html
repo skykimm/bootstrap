@@ -117,7 +117,7 @@
                   <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </li>
-              <li class="mb-3">
+              <li class="mb-5">
                 <div class="d-flex mb-1">
                   <strong>Bootstrap</strong>
                   <span class="ml-auto">85%</span>
@@ -127,6 +127,9 @@
                 </div>
               </li>
             </ul>
+            <!-- ========== modal popup ========== -->
+            <button type="button" class="readmore" data-toggle="modal" data-target="#myModal2">Download my CV</button>
+            <!-- ========== //modal popup ========== -->
           </div>
 
           <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
@@ -139,7 +142,7 @@
               Vitae reiciendis quae ex.</p>
             <p>Optio consectetur culpa nemo, fugit pariatur veniam voluptate laudantium rerum fuga dolor in maiores ea
               nisi voluptatibus. Minus?</p>
-            <button type="button" class="readmore" data-toggle="modal" data-target="#myModal2">Download my CV</button>
+
           </div>
         </div>
 
@@ -163,6 +166,15 @@
           </div>
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+          <div class="item mobile col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="work-single.html" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Kitchen Sink</h3>
+                <span>mobile</span>
+              </div>
+              <img class="img-fluid" src="../css/img/img_5.jpg">
+            </a>
+          </div>
           <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
               <div class="work-info">
@@ -181,15 +193,6 @@
               <img class="img-fluid" src="../css/img/img_2.jpg">
             </a>
           </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Cocooil</h3>
-                <span>web</span>
-              </div>
-              <img class="img-fluid" src="../css/img/img_3.jpg">
-            </a>
-          </div>
           <div class="item mobile col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
               <div class="work-info">
@@ -199,13 +202,13 @@
               <img class="img-fluid" src="../css/img/img_4.jpg">
             </a>
           </div>
-          <div class="item mobile col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
               <div class="work-info">
-                <h3>Kitchen Sink</h3>
-                <span>mobile</span>
+                <h3>Cocooil</h3>
+                <span>web</span>
               </div>
-              <img class="img-fluid" src="../css/img/img_5.jpg">
+              <img class="img-fluid" src="../css/img/img_3.jpg">
             </a>
           </div>
           <div class="item mobile col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -294,26 +297,6 @@
   </main>
   <!-- End #main -->
 
-
-  <!-- modal popup -->
-  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-        </div>
-        <div class="modal-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur mollitia optio dignissimos rem eum reprehenderit suscipit earum sit dicta, corporis autem a aliquid iste cum doloremque eveniet nihil adipisci?
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
     <div class="container">
@@ -333,6 +316,23 @@
       </div>
     </div>
   </footer>
+
+  <!-- modal popup -->
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur mollitia optio dignissimos rem eum reprehenderit suscipit earum sit dicta, corporis autem a aliquid iste cum doloremque eveniet nihil adipisci?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
