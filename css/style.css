@@ -5,10 +5,7 @@
   padding: 5rem 0;
 }
 
-.custom-navmenu .custom-menu li {
-  margin-bottom: 15px;
-}
-
+/* 메인 팝업 버튼 */
 button.readmore{
   width: 100%;
 }
