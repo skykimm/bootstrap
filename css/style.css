@@ -1,0 +1,11 @@
+@import url('../css/common.css');
+
+
+.section {
+  padding: 5rem 0;
+}
+
+.custom-navmenu .custom-menu li {
+  margin-bottom: 15px;
+}
+
