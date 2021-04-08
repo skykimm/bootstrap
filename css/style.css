@@ -8,4 +8,5 @@
 /* 메인 팝업 버튼 */
 button.readmore{
   width: 100%;
+  background: none;
 }
